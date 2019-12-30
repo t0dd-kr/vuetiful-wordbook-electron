@@ -1,22 +1,37 @@
-# wordbook-electron
+# Vuetiful Wordbook ![wordbook](https://user-images.githubusercontent.com/28590190/60907803-65127700-a2b5-11e9-8c07-3115f5523a9e.png)
 
-> Vuetiful Wordbook deployed on electron
+[![React](https://img.shields.io/badge/vue--cli-3.7.0-brightgreen.svg?logo=Vue)](https://vuejs.org/)
 
-#### Build Setup
+> Personal image convertable simple web wordbook powered by Vue.js
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:9080
-npm run dev
-
-# build electron application for production
-npm run build
-
+## Install
 
 ```
+clone https://github.com/t0dd-kr/vuetiful-wordbook.git
+cd vuetiful-wordbook-electron
+npm install
+```
 
----
+## Usage
 
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[8fae476](https://github.com/SimulatedGREG/electron-vue/tree/8fae4763e9d225d3691b627e83b9e09b56f6c935) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+```
+npm run dev
+```
+
+## Preview
+
+![image](https://user-images.githubusercontent.com/28590190/60907211-f97bda00-a2b3-11e9-9f0b-50fd30ddbb21.png)
+
+
+## !! Warning !!
+
+- Only ENG to KOR
+- Using translation from Google Translation (https://translate.google.co.kr/?hl=ko) with Selenium Webdriver (Google Chrome Webdriver)
+- Only Developer Mode (Selenium crash on electron build app)
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2019 t0dd-kr
