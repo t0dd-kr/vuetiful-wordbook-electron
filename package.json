@@ -62,7 +62,7 @@
   },
   "devDependencies": {
     "html2canvas": "^1.0.0-rc.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ajv": "^6.5.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
